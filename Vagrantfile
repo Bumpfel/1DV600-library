@@ -7,6 +7,11 @@ Vagrant.configure(2) do |config|
   # accessing "localhost:8080" will access port 80 on the guest machine.
   config.vm.network "forwarded_port", guest: 9090, host: 9090
 
+#  config.vm.provider "virtualbox" do |v|
+#    v.memory = 2048
+#    v.cpus = 4
+#    end
+
   config.vm.provision "shell", inline: <<-SHELL
     sudo add-apt-repository ppa:cwchien/gradle
     apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/*
@@ -37,9 +42,9 @@ Vagrant.configure(2) do |config|
 
   SHELL
 
-  config.vm.provision "shell", run:"always", privileged:false, inline: <<-SHELL
-	  cd /vagrant
-	  gradle test run --info
-  SHELL
+#  config.vm.provision "shell", run:"always", privileged:false, inline: <<-SHELL
+#  cd /vagrant
+#	  gradle test run --info
+#  SHELL
 
 end

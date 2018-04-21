@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="10">
+      <author>Stephen Hawking</author>
+      <title>A Brief History of Time</title>
+      <genre>Science</genre>
+      <price>199</price>
+      <publish_date>1988-09-01</publish_date>
+      <description>Hawking attempts to explain a range of subjects in cosmology, including the big bang, black holes and light cones, to the nonspecialist reader. His main goal is to give an overview of the subject, but he also attempts to explain some complex mathematics. In the 1996 edition of the book and subsequent editions, Hawking discusses the possibility of time travel and wormholes and explores the possibility of having a universe without a quantum singularity at the beginning of time.</description>
+   </book>
+
+</catalog>

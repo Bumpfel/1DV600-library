@@ -5,6 +5,12 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import lnu.models.Catalog;
+import lnu.models.Book;
+import lnu.dao.booksDAO;
+
+import java.io.File;
+
 // Response will be JSON
 @Produces(MediaType.APPLICATION_JSON)
 
@@ -15,8 +21,7 @@ public class GetBooksResource {
 
 	@GET
 	public String getBooks() {
-		// TODO: Task 1
-		return "";
+		return booksDAO.XMLToJava().getBooksAsJson();
 	}
 
 }

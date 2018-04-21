@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BookTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-03-18T21:04:00" hostname="vagrant-ubuntu-trusty-64" time="0.031">
+  <properties/>
+  <testcase name="testGetGenre" classname="BookTest" time="0.0"/>
+  <testcase name="testGetPrice" classname="BookTest" time="0.0"/>
+  <testcase name="testInvalidDate" classname="BookTest" time="0.002"/>
+  <testcase name="testNumericAndPositive" classname="BookTest" time="0.003"/>
+  <testcase name="testValidDate" classname="BookTest" time="0.001"/>
+  <testcase name="testInvalidDateFormat" classname="BookTest" time="0.0"/>
+  <testcase name="shouldPassIfGetTitleReturnsexpectedStringResult" classname="BookTest" time="0.0"/>
+  <testcase name="testIsNotEmpty" classname="BookTest" time="0.0"/>
+  <testcase name="shouldPassIfGetTitleReturnsNull" classname="BookTest" time="0.001"/>
+  <testcase name="testNotNumeric" classname="BookTest" time="0.002"/>
+  <testcase name="testGetDescripton" classname="BookTest" time="0.0"/>
+  <testcase name="testGetAuthor" classname="BookTest" time="0.001"/>
+  <testcase name="testIsEmpty" classname="BookTest" time="0.001"/>
+  <testcase name="testGetPublishDate" classname="BookTest" time="0.005"/>
+  <testcase name="testNumericNegative" classname="BookTest" time="0.0"/>
+  <system-out><![CDATA[---------------------------------------------- Illegal date format or date does not exist --------------------------------------------------
+---------------------------------------------- Illegal date format or date does not exist --------------------------------------------------
+---------------------------------------------- Price entered is not numeric --------------------------------------------------
+---------------------------------------------- A field was empty --------------------------------------------------
+---------------------------------------------- Price entered is not positive --------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

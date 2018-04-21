@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APITest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-03-18T21:03:58" hostname="vagrant-ubuntu-trusty-64" time="1.13">
+  <properties/>
+  <testcase name="testGetBooksReturn" classname="APITest" time="0.887"/>
+  <testcase name="testRemoveBook" classname="APITest" time="0.119"/>
+  <testcase name="testGetBooksResponse" classname="APITest" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

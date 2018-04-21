@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="7">
+      <author>Dan Brown</author>
+      <title>The Da Vinci Code</title>
+      <genre>Mystery</genre>
+      <price>139</price>
+      <publish_date>2003-04-02</publish_date>
+      <description>The Da Vinci Code is a 2003 mystery-detective novel by Dan Brown. It follows symbologist Robert Langdon and cryptologist Sophie Neveu after a murder in the Louvre Museum in Paris, when they become involved in a battle between the Priory of Sion and Opus Dei over the possibility of Jesus Christ having been married to Mary Magdalene. The title of the novel refers, among other things, to the finding of the first murder victim in the Grand Gallery of the Louvre, naked and posed like Leonardo da Vincis famous drawing, the Vitruvian Man, with a cryptic message written beside his body and a pentagram drawn on his chest in his own blood.</description>
+   </book>
+   <book id="8">
+      <author>Margaret Mitchell</author>
+      <title>Gone with the Wind</title>
+      <genre>Romance</genre>
+      <price>93</price>
+      <publish_date>1936-06-10</publish_date>
+      <description>Gone with the Wind is a novel written by Margaret Mitchell, first published in 1936. The story is set in Clayton County, Georgia, and Atlanta during the American Civil War and Reconstruction era. It depicts the struggles of young Scarlett OHara, the spoiled daughter of a well-to-do plantation owner, who must use every means at her disposal to claw her way out of the poverty she finds herself in after Shermans March to the Sea. A historical novel, the story is a Bildungsroman or coming-of-age story, with the title taken from a poem written by Ernest Dowson.</description>
+   </book>
+   <book id="9">
+      <author>Napoleon Hill</author>
+      <title>Think and Grow Rich</title>
+      <genre>Personal Development</genre>
+      <price>124</price>
+      <publish_date>1937-11-12</publish_date>
+      <description></description>
+   </book>
+   <book id="10">
+      <author>Stephen Hawking</author>
+      <title>A Brief History of Time</title>
+      <genre>Science</genre>
+      <price>199</price>
+      <publish_date>1988-09-01</publish_date>
+      <description>Hawking attempts to explain a range of subjects in cosmology, including the big bang, black holes and light cones, to the nonspecialist reader. His main goal is to give an overview of the subject, but he also attempts to explain some complex mathematics. In the 1996 edition of the book and subsequent editions, Hawking discusses the possibility of time travel and wormholes and explores the possibility of having a universe without a quantum singularity at the beginning of time.</description>
+   </book>
+</catalog>
